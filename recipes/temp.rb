@@ -1,5 +1,5 @@
 template '/tmp/config' do
   source 'test.erb'
-  mode '600'
+  mode '644'
   owner 'ec2-user'
 end 
